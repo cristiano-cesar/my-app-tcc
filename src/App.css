@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.dark-mode .card {
+  background-color: #1e1e1e;
+  color: white;
+  border-color: #444;
+}
+
+.dark-mode .table {
+  color: white;
+}
+
+.dark-mode .table td,
+.dark-mode .table th {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.dark-mode section {
+  background-color: #121212;
+  color: white;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
+.dark-mode p,
+.dark-mode span,
+.dark-mode li {
+  color: white !important;
+}
+a:link {
+  color: #020250;
+  text-decoration: none;
+}
+a:hover {
+  color: #020250;
+  text-decoration: none;
+}
